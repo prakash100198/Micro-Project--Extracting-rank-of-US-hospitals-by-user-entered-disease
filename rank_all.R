@@ -30,8 +30,5 @@ rankall<-function(outcome,num="best"){
     
     final_data_frame$State[i]<-factor_list[i]
   }
-  
-  
-  
-  return(final_data_frame)
+   return(final_data_frame)
 }
